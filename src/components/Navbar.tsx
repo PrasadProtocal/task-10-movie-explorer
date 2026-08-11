@@ -20,7 +20,7 @@ const Navbar: React.FC<NavbarProps> = ({ favoriteCount }) => {
                     {/* Logo */}
                     <Link to="/" className="flex items-center space-x-2">
                         <span className="text-2xl font-bold text-blue-400">🎬</span>
-                        <span className="text-xl font-semibold hidden block">MovieExplorer</span>
+                        <span className="text-xl font-semibold hidden sm:block">MovieExplorer</span>
                         <span className="text-xl font-semibold sm:hidden">MovieExplorer</span>
                     </Link>
 
